@@ -39,7 +39,7 @@ const Testimonials = () => {
         <SectionTitle
           subtitle="Testimonials"
           title="What our Client Say"
-          paragraph="There are many variations of passages of Lorem Ipsum available but the majority have suffered alteration in some form."
+          // paragraph="There are many variations of passages of Lorem Ipsum available but the majority have suffered alteration in some form."
           width="640px"
           center
         />

@@ -7,8 +7,8 @@ const Faq = () => {
       <div className="container">
         <SectionTitle
           subtitle="FAQ"
-          title="Any Questions? Answered"
-          paragraph="There are many variations of passages of Lorem Ipsum available but the majority have suffered alteration in some form."
+          title="Any Questions?"
+          // paragraph="There are many variations of passages of Lorem Ipsum available but the majority have suffered alteration in some form."
           width="640px"
           center
         />
@@ -16,32 +16,27 @@ const Faq = () => {
         <div className="-mx-4 mt-[60px] flex flex-wrap lg:mt-20">
           <div className="w-full px-4 lg:w-1/2">
             <SingleFaq
-              question="How to use TailGrids?"
-              answer="It takes 2-3 weeks to get your first blog post ready. That includes the in-depth research & creation of your monthly content marketing strategy that we do before writing your first blog post, Ipsum available ."
+              question="What services does Logos360 offer?"
+              answer="Logos360 provides a range of services including web development, mobile development, e-commerce solutions, and tech training."
             />
             <SingleFaq
-              question="How to download icons from LineIcons?"
-              answer="It takes 2-3 weeks to get your first blog post ready. That includes the in-depth research & creation of your monthly content marketing strategy that we do before writing your first blog post, Ipsum available ."
+              question=" How can I benefit from Logos360's tech training programs?"
+              answer="Logos360's tech training programs are designed to elevate your technical skills, whether you're a beginner or an experienced professional. Our expert-led courses cover a wide range of topics to help you stay ahead in the ever-evolving tech landscape."
             />
-            <SingleFaq
-              question="Is GrayGrids part of UIdeck?"
-              answer="It takes 2-3 weeks to get your first blog post ready. That includes the in-depth research & creation of your monthly content marketing strategy that we do before writing your first blog post, Ipsum available ."
-            />
+           
           </div>
 
           <div className="w-full px-4 lg:w-1/2">
+           
             <SingleFaq
-              question="Can I use this template for commercial project?"
-              answer="It takes 2-3 weeks to get your first blog post ready. That includes the in-depth research & creation of your monthly content marketing strategy that we do before writing your first blog post, Ipsum available ."
+              question="How can I get in touch with Logos360 for a project or training inquiry?"
+              answer="You can contact us through our website's contact form, email, or phone. Visit our Contact Us page for more details."
             />
-            <SingleFaq
-              question="Do you have plan to releasing Play Pro?"
-              answer="It takes 2-3 weeks to get your first blog post ready. That includes the in-depth research & creation of your monthly content marketing strategy that we do before writing your first blog post, Ipsum available ."
+             <SingleFaq
+              question="What makes Logos360 different from other tech companies?"
+              answer="At Logos360, we pride ourselves on our creative, talented, and hard-working team. We focus on building clean, user-friendly interfaces and delivering innovative solutions that meet our clients' needs."
             />
-            <SingleFaq
-              question="Where and how to host this template?"
-              answer="It takes 2-3 weeks to get your first blog post ready. That includes the in-depth research & creation of your monthly content marketing strategy that we do before writing your first blog post, Ipsum available ."
-            />
+           
           </div>
         </div>
       </div>

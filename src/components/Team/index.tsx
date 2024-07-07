@@ -5,7 +5,7 @@ import SingleTeam from "./SingleTeam";
 const teamData: TeamType[] = [
   {
     id: 1,
-    name: "Adveen Desuza",
+    name: "Joshua",
     designation: "UI Designer",
     image: "/images/team/team-01.png",
     facebookLink: "/#",
@@ -14,7 +14,7 @@ const teamData: TeamType[] = [
   },
   {
     id: 2,
-    name: "Jezmin uniya",
+    name: "Alao",
     designation: "Product Designer",
     image: "/images/team/team-02.png",
     facebookLink: "/#",
@@ -23,7 +23,7 @@ const teamData: TeamType[] = [
   },
   {
     id: 3,
-    name: "Andrieo Gloree",
+    name: "Dollie P",
     designation: "App Developer",
     image: "/images/team/team-03.png",
     facebookLink: "/#",
@@ -32,7 +32,7 @@ const teamData: TeamType[] = [
   },
   {
     id: 4,
-    name: "Jackie Sanders",
+    name: "Muyihideen",
     designation: "Content Writer",
     image: "/images/team/team-04.png",
     facebookLink: "/#",
@@ -52,7 +52,7 @@ const Team = () => {
           <SectionTitle
             subtitle="Our Team"
             title="Meet Our Team"
-            paragraph="There are many variations of passages of Lorem Ipsum available but the majority have suffered alteration in some form."
+            paragraph="Get to Know the Experts Behind Our Innovations"
             width="640px"
             center
           />
