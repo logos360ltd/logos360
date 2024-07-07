@@ -1,5 +1,4 @@
 "use client";
-import { signOut, useSession } from "next-auth/react";
 import { useTheme } from "next-themes";
 import Image from "next/image";
 import Link from "next/link";
@@ -9,7 +8,6 @@ import { useEffect, useState } from "react";
 import menuData from "./menuData";
 
 const Header = () => {
-  const { data: session } = useSession();
 
   const pathUrl = usePathname();
   // Navbar toggle
@@ -65,7 +63,8 @@ const Header = () => {
               >
                 {pathUrl !== "/" ? (
                   <>
-                    <Image
+                  <h2 className="text-2xl font-bold">Logos360</h2>
+                    {/* <Image
                       src={`/images/logo/logo.svg`}
                       alt="logo"
                       width={240}
@@ -78,11 +77,13 @@ const Header = () => {
                       width={240}
                       height={30}
                       className="header-logo hidden w-full dark:block"
-                    />
+                    /> */}
                   </>
                 ) : (
                   <>
-                    <Image
+                  <h2 className={`text-2xl font-bold text-white ${sticky && "text-gray-800"}`}>Logos360</h2>
+
+                    {/* <Image
                       src={`${
                         sticky
                           ? "/images/logo/logo.svg"
@@ -99,7 +100,7 @@ const Header = () => {
                       width={140}
                       height={30}
                       className="header-logo hidden w-full dark:block"
-                    />
+                    /> */}
                   </>
                 )}
               </Link>
