@@ -6,8 +6,8 @@ import { Metadata } from "next";
 
 export const metadata: Metadata = {
   title:
-    "About Us | Play SaaS Starter Kit and Boilerplate for Next.js",
-  description: "This is About page description",
+    "About Us | Logo360 - Innovating Digital Solutions",
+  description: "About Logo360",
 };
 
 const AboutPage = () => {
@@ -16,7 +16,7 @@ const AboutPage = () => {
       <ScrollUp />
       <Breadcrumb pageName="About Us Page" />
       <About />
-      <Team />
+      {/* <Team /> */}
     </main>
   );
 };

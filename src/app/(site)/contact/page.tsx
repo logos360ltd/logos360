@@ -4,9 +4,8 @@ import Contact from "@/components/Contact";
 import { Metadata } from "next";
 
 export const metadata: Metadata = {
-  title:
-    "Contact Page | Play SaaS Starter Kit and Boilerplate for Next.js",
-  description: "This is contact page description",
+  title:"Contact Us | Logo360 - Innovating Digital Solutions",
+  description: "Contact Logo360",
 };
 
 const ContactPage = () => {
@@ -14,7 +13,7 @@ const ContactPage = () => {
     <>
       <ScrollUp />
 
-      <Breadcrumb pageName="Contact Page" />
+      <Breadcrumb pageName="Contact" />
 
       <Contact />
     </>

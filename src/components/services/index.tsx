@@ -1,6 +1,6 @@
 import Image from "next/image";
 
-const About = () => {
+const Services = () => {
   return (
     <section
       id="about"
@@ -12,12 +12,14 @@ const About = () => {
             <div className="w-full px-4 lg:w-1/2">
               <div className="mb-12 max-w-[540px] lg:mb-0">
                 <h2 className="mb-5 text-3xl font-bold leading-tight text-dark dark:text-white sm:text-[40px] sm:leading-[1.2]">
-                  Empowering Businesses with Cutting-Edge Technology
+                  Tailored Solutions to Help Meet Your Needs
                 </h2>
                 <p className="mb-10 text-base leading-relaxed text-body-color dark:text-dark-6">
-                 At Logos360, we transform your digital presence with our web development, mobile development, e-commerce solutions, and tech training. Our team creates dynamic websites, high-performance mobile apps, and secure e-commerce platforms. We also offer expert-led training to keep you and your team ahead in the tech world.
+                Do you have a tech business idea and want to build out and sell as a recurring service?
+
+We can help you iterate your idea and help you map and build out the features based on best practices.
                   <br /> <br />
-                 Based in the UK, Logos360 is driven by creative and talented professionals dedicated to delivering outstanding results. We focus on building clean, user-friendly interfaces tailored to your business needs. Partner with us to enhance your online presence, streamline operations, and achieve your goals.
+                 With a focus on innovation and creativity, our team is constantly striving to be the best at what we do. We create mobile apps that not only deliver results for clients but also provide them with an experience worth coming back to
                 </p>
 
                 {/* <a
@@ -36,7 +38,7 @@ const About = () => {
                     className={`relative mb-4 sm:mb-8 sm:h-[400px] md:h-[540px] lg:h-[400px] xl:h-[500px] `}
                   >
                     <Image
-                      src="/images/about/about-image-01.jpg"
+                      src="/images/services/service-image-01.jpg"
                       alt="about image"
                       fill
                       className="h-full w-full object-cover object-center"
@@ -47,7 +49,7 @@ const About = () => {
                 <div className="w-full px-2 sm:w-1/2 sm:px-4 lg:px-2 xl:px-4">
                   <div className="relative mb-4 sm:mb-8 sm:h-[220px] md:h-[346px] lg:mb-4 lg:h-[225px] xl:mb-8 xl:h-[310px]">
                     <Image
-                      src="/images/about/about-image-02.jpg"
+                      src="/images/services/service-image-02.jpg"
                       alt="about image"
                       fill
                       className="h-full w-full object-cover object-center"
@@ -187,4 +189,4 @@ const About = () => {
   );
 };
 
-export default About;
+export default Services;
