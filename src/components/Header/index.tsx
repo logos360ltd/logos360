@@ -63,7 +63,7 @@ const Header = () => {
               >
                 {pathUrl !== "/" ? (
                   <>
-                  <h2 className={`text-2xl font-bold  ${sticky && "text-gray-800"}`}>Logos<span className="text-blue-500">360</span></h2>
+                  <h2 className={`text-2xl font-bold  ${sticky && "text-gray-800"}`}>Logos<span className={`${sticky &&"text-blue-600"}`}>360</span></h2>
                     {/* <Image
                       src={`/images/logo/logo.svg`}
                       alt="logo"
@@ -81,7 +81,7 @@ const Header = () => {
                   </>
                 ) : (
                   <>
-                  <h2 className={`text-2xl font-bold  ${sticky ? "text-gray-800": "text-white"}`}>Logos<span className="text-blue-500">360</span></h2>
+                  <h2 className={`text-2xl font-bold  ${sticky ? "text-gray-800": "text-white"}`}>Logos<span className={`${sticky &&"text-blue-600"}`}>360</span></h2>
 
                     {/* <Image
                       src={`${
