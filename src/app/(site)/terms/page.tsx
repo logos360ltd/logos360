@@ -7,8 +7,8 @@ type Props = {}
 
 export const metadata: Metadata = {
   title:
-    "Terms and Conditions | Logo360 - Innovating Digital Solutions",
-  description: "Logo360 Terms and Conditions",
+    "Terms and Conditions | Logso360 - Innovating Digital Solutions",
+  description: "Logos360 Terms and Conditions",
 };
 
 const page = (props: Props) => {

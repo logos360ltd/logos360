@@ -1,1 +1,1 @@
-# Logo360 landing page
+# Logos360 landing page

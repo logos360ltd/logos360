@@ -11,7 +11,7 @@ import Testimonials from "@/components/Testimonials";
 import { Metadata } from "next";
 
 export const metadata: Metadata = {
-  title: "Logo360 - Innovating Digital Solutions",
+  title: "Logos360 - Innovating Digital Solutions",
   description: " From developing dynamic websites and intuitive mobile apps to creating secure e-commerce platforms and providing comprehensive tech training, we ensure that our clients stay ahead in the competitive digital landscape.",
 };
 

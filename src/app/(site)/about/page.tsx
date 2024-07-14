@@ -6,8 +6,8 @@ import { Metadata } from "next";
 
 export const metadata: Metadata = {
   title:
-    "About Us | Logo360 - Innovating Digital Solutions",
-  description: "About Logo360",
+    "About Us | Logos360 - Innovating Digital Solutions",
+  description: "About Logos360",
 };
 
 const AboutPage = () => {

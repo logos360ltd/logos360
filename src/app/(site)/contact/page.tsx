@@ -4,8 +4,8 @@ import Contact from "@/components/Contact";
 import { Metadata } from "next";
 
 export const metadata: Metadata = {
-  title:"Contact Us | Logo360 - Innovating Digital Solutions",
-  description: "Contact Logo360",
+  title:"Contact Us | Logos360 - Innovating Digital Solutions",
+  description: "Contact Logos360",
 };
 
 const ContactPage = () => {
